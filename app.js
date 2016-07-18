@@ -9,7 +9,7 @@ app.get('/', (req, res) => {
 
 app.get('/:time', (req, res) => {
 	var timestring = req.params.time;
-	console.log(timestring);
+	res.end(timestring);
 })
 
 app.listen(app.get('port'), () => {

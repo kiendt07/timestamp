@@ -10,9 +10,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.14.0"
+    "express": "^4.14.0",
+    "moment": "^2.14.1"
   },
-  "devDependencies": {
-    "chrono-node": "^1.2.4"
-  }
+  "devDependencies": {}
 }
